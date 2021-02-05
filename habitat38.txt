@@ -1,0 +1,11 @@
+To install, open an anaconda prompt from Windows Start and write:
+
+conda create --name habitat38 python=3.8
+conda activate habitat38
+conda install numpy
+conda install pyqt
+conda install pandas
+conda install xlsxwriter
+conda install jupyter
+conda install matplotlib
+conda install xlrd
