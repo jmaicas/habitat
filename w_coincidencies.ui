@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>643</width>
-    <height>229</height>
+    <width>838</width>
+    <height>258</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -30,26 +30,13 @@
      <attribute name="title">
       <string>Multiple coincidencies</string>
      </attribute>
-     <widget class="QLabel" name="label_24">
-      <property name="geometry">
-       <rect>
-        <x>480</x>
-        <y>101</y>
-        <width>47</width>
-        <height>13</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>FIGURES</string>
-      </property>
-     </widget>
      <widget class="QPushButton" name="ButtonRunAll">
       <property name="geometry">
        <rect>
-        <x>220</x>
-        <y>116</y>
+        <x>760</x>
+        <y>10</y>
         <width>70</width>
-        <height>51</height>
+        <height>91</height>
        </rect>
       </property>
       <property name="styleSheet">
@@ -59,42 +46,13 @@
        <string>RUN</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_18">
-      <property name="geometry">
-       <rect>
-        <x>540</x>
-        <y>117</y>
-        <width>41</width>
-        <height>16</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Export</string>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="Button2PDF">
-      <property name="geometry">
-       <rect>
-        <x>506</x>
-        <y>138</y>
-        <width>41</width>
-        <height>19</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgb(85, 255, 127);</string>
-      </property>
-      <property name="text">
-       <string>PDF</string>
-      </property>
-     </widget>
      <widget class="QFrame" name="frame_Experimental">
       <property name="geometry">
        <rect>
         <x>10</x>
-        <y>20</y>
-        <width>611</width>
-        <height>71</height>
+        <y>10</y>
+        <width>741</width>
+        <height>51</height>
        </rect>
       </property>
       <property name="frameShape">
@@ -107,20 +65,20 @@
        <property name="geometry">
         <rect>
          <x>9</x>
-         <y>19</y>
-         <width>81</width>
+         <y>9</y>
+         <width>241</width>
          <height>31</height>
         </rect>
        </property>
        <property name="text">
-        <string>Select folder</string>
+        <string>Folder if tracking in several files</string>
        </property>
       </widget>
-      <widget class="QPushButton" name="ButDelFile">
+      <widget class="QPushButton" name="ButDelFolder">
        <property name="geometry">
         <rect>
-         <x>550</x>
-         <y>20</y>
+         <x>680</x>
+         <y>10</y>
          <width>51</width>
          <height>31</height>
         </rect>
@@ -129,12 +87,12 @@
         <string>Delete</string>
        </property>
       </widget>
-      <widget class="QLabel" name="labelFileSelected">
+      <widget class="QLabel" name="labelFolderPath">
        <property name="geometry">
         <rect>
-         <x>100</x>
-         <y>19</y>
-         <width>441</width>
+         <x>260</x>
+         <y>9</y>
+         <width>411</width>
          <height>31</height>
         </rect>
        </property>
@@ -143,135 +101,12 @@
        </property>
       </widget>
      </widget>
-     <widget class="QPushButton" name="Button2PNG">
+     <widget class="QFrame" name="frame_Experimental_2">
       <property name="geometry">
        <rect>
-        <x>567</x>
-        <y>138</y>
-        <width>41</width>
-        <height>19</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgb(85, 255, 127);</string>
-      </property>
-      <property name="text">
-       <string>PNG</string>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="ButtonClearFigures">
-      <property name="geometry">
-       <rect>
-        <x>380</x>
-        <y>120</y>
-        <width>81</width>
-        <height>41</height>
-       </rect>
-      </property>
-      <property name="palette">
-       <palette>
-        <active>
-         <colorrole role="Button">
-          <brush brushstyle="SolidPattern">
-           <color alpha="255">
-            <red>255</red>
-            <green>0</green>
-            <blue>0</blue>
-           </color>
-          </brush>
-         </colorrole>
-         <colorrole role="Base">
-          <brush brushstyle="SolidPattern">
-           <color alpha="255">
-            <red>255</red>
-            <green>0</green>
-            <blue>0</blue>
-           </color>
-          </brush>
-         </colorrole>
-         <colorrole role="Window">
-          <brush brushstyle="SolidPattern">
-           <color alpha="255">
-            <red>255</red>
-            <green>0</green>
-            <blue>0</blue>
-           </color>
-          </brush>
-         </colorrole>
-        </active>
-        <inactive>
-         <colorrole role="Button">
-          <brush brushstyle="SolidPattern">
-           <color alpha="255">
-            <red>255</red>
-            <green>0</green>
-            <blue>0</blue>
-           </color>
-          </brush>
-         </colorrole>
-         <colorrole role="Base">
-          <brush brushstyle="SolidPattern">
-           <color alpha="255">
-            <red>255</red>
-            <green>0</green>
-            <blue>0</blue>
-           </color>
-          </brush>
-         </colorrole>
-         <colorrole role="Window">
-          <brush brushstyle="SolidPattern">
-           <color alpha="255">
-            <red>255</red>
-            <green>0</green>
-            <blue>0</blue>
-           </color>
-          </brush>
-         </colorrole>
-        </inactive>
-        <disabled>
-         <colorrole role="Button">
-          <brush brushstyle="SolidPattern">
-           <color alpha="255">
-            <red>255</red>
-            <green>0</green>
-            <blue>0</blue>
-           </color>
-          </brush>
-         </colorrole>
-         <colorrole role="Base">
-          <brush brushstyle="SolidPattern">
-           <color alpha="255">
-            <red>255</red>
-            <green>0</green>
-            <blue>0</blue>
-           </color>
-          </brush>
-         </colorrole>
-         <colorrole role="Window">
-          <brush brushstyle="SolidPattern">
-           <color alpha="255">
-            <red>255</red>
-            <green>0</green>
-            <blue>0</blue>
-           </color>
-          </brush>
-         </colorrole>
-        </disabled>
-       </palette>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgb(255, 0, 0);</string>
-      </property>
-      <property name="text">
-       <string>Close All</string>
-      </property>
-     </widget>
-     <widget class="QFrame" name="frame_2">
-      <property name="geometry">
-       <rect>
-        <x>370</x>
-        <y>114</y>
-        <width>251</width>
+        <x>10</x>
+        <y>70</y>
+        <width>741</width>
         <height>51</height>
        </rect>
       </property>
@@ -279,17 +114,103 @@
        <enum>QFrame::Box</enum>
       </property>
       <property name="frameShadow">
-       <enum>QFrame::Raised</enum>
+       <enum>QFrame::Sunken</enum>
       </property>
+      <widget class="QPushButton" name="ButtonSelectFile">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>181</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Tracking in a single file</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="ButDelFile">
+       <property name="geometry">
+        <rect>
+         <x>680</x>
+         <y>10</y>
+         <width>51</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Delete</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="labelFilePath">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>10</y>
+         <width>471</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
      </widget>
-     <zorder>frame_2</zorder>
-     <zorder>label_24</zorder>
-     <zorder>ButtonRunAll</zorder>
-     <zorder>label_18</zorder>
-     <zorder>Button2PDF</zorder>
-     <zorder>frame_Experimental</zorder>
-     <zorder>Button2PNG</zorder>
-     <zorder>ButtonClearFigures</zorder>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame_Experimental_3">
+    <property name="geometry">
+     <rect>
+      <x>12</x>
+      <y>158</y>
+      <width>741</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Sunken</enum>
+    </property>
+    <widget class="QPushButton" name="ButtonResultFolder">
+     <property name="geometry">
+      <rect>
+       <x>9</x>
+       <y>9</y>
+       <width>161</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Empy results folder</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ButDelResultFolder">
+     <property name="geometry">
+      <rect>
+       <x>680</x>
+       <y>10</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Delete</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelResultFolderPath">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>9</y>
+       <width>491</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
     </widget>
    </widget>
   </widget>
@@ -298,8 +219,8 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>643</width>
-     <height>21</height>
+     <width>838</width>
+     <height>22</height>
     </rect>
    </property>
   </widget>
