@@ -126,7 +126,7 @@ class MyForm(QMainWindow):
         if not rat_n.consistency:
           error_message = "time errors in rat: " + str(rat_n.rat_id) + " columns: " + np.array2string(rat_n.excel_locations)
           self.error_msg.showMessage(error_message)
-          
+
         rat_n.add_sampling(sampling_freq, sampling_time)
         #print(rat_n.rat_location)
         #print(rat_n.starting_time)
@@ -151,6 +151,7 @@ class MyForm(QMainWindow):
       self.export_coincidences_to_excel()
 
   def export_coincidences_to_excel(self):
+    os.chdir(str(self.ui.labelResultFolderPath.text()))
     workbook = xlsxwriter.Workbook('coincidencies.xlsx')
     for rat_n in (self.rats):
       worksheet_rat= workbook.add_worksheet(str(rat_n.rat_id))
